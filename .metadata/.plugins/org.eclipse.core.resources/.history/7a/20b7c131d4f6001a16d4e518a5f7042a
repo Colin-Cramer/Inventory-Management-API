@@ -1,0 +1,5 @@
+package com.promineotech.inventorymanagement.controller;
+
+public class CustomerController {
+
+}

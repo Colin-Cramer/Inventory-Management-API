@@ -1,0 +1,527 @@
+2020-09-14 19:49:41.753  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] c.p.i.App                                : Starting App on DESKTOP-HDNSL6C with PID 16900 (started by colin in C:\Users\colin\eclipse-workspace\Week 14 Assignment\inventorymanagement)
+2020-09-14 19:49:41.786  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69ad38f2: startup date [Mon Sep 14 19:49:41 MST 2020]; root of context hierarchy
+2020-09-14 19:49:42.322  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-09-14 19:49:42.726  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-09-14 19:49:42.846  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c2d642e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-14 19:49:42.868  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-14 19:49:42.877  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-14 19:49:42.882  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-14 19:49:43.212  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-09-14 19:49:43.299  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-09-14 19:49:43.302  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-09-14 19:49:43.378  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-09-14 19:49:43.379  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1595 ms
+2020-09-14 19:49:43.832  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-09-14 19:49:43.836  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-14 19:49:43.837  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-14 19:49:44.013  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-14 19:49:44.023  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-14 19:49:44.083  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-14 19:49:44.085  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-09-14 19:49:44.087  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-09-14 19:49:44.208  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-14 19:49:44.936  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-09-14 19:49:45.062  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-09-14 19:49:45.473  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-09-14 19:49:45.492 ERROR DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `order` drop foreign key FK_m6q2ofkj1g5aobtb2p00ajpqg
+2020-09-14 19:49:45.493 ERROR DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_api.order' doesn't exist
+2020-09-14 19:49:45.497 ERROR DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `product_order` drop foreign key FK_5uw5nxqovigv7mf1gmbos1rl8
+2020-09-14 19:49:45.498 ERROR DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_api.product_order' doesn't exist
+2020-09-14 19:49:45.501 ERROR DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `product_order` drop foreign key FK_sf5yp37b7qt63qqoq25f82lpu
+2020-09-14 19:49:45.502 ERROR DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_api.product_order' doesn't exist
+2020-09-14 19:49:45.828  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-09-14 19:49:46.177  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69ad38f2: startup date [Mon Sep 14 19:49:41 MST 2020]; root of context hierarchy
+2020-09-14 19:49:46.226  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2020-09-14 19:49:46.228  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.updateCustomer(com.promineotech.inventorymanagement.entity.Customer,java.lang.Long)
+2020-09-14 19:49:46.229  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.getCustomer(java.lang.Long)
+2020-09-14 19:49:46.230  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.getCustomers()
+2020-09-14 19:49:46.232  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.createCustomer(com.promineotech.inventorymanagement.entity.Customer)
+2020-09-14 19:49:46.233  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.OrderController.updateOrder(com.promineotech.inventorymanagement.entity.Order,java.lang.Long)
+2020-09-14 19:49:46.234  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2020-09-14 19:49:46.238  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.updateProduct(com.promineotech.inventorymanagement.entity.Product,java.lang.Long)
+2020-09-14 19:49:46.240  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/.{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.deleteProduce(java.lang.Long)
+2020-09-14 19:49:46.241  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.getProducts()
+2020-09-14 19:49:46.243  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-14 19:49:46.244  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-09-14 19:49:46.265  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-14 19:49:46.267  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-14 19:49:46.295  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-14 19:49:46.413  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-09-14 19:49:46.441  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-14 19:49:46.450  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-09-14 19:49:46.463  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-09-14 19:49:46.480  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-09-14 19:49:46.484  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] c.p.i.App                                : Started App in 4.92 seconds (JVM running for 8.574)
+2020-09-14 19:54:56.826  INFO DESKTOP-HDNSL6C
+			--- [       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69ad38f2: startup date [Mon Sep 14 19:49:41 MST 2020]; root of context hierarchy
+2020-09-19 09:23:57.733  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] c.p.i.App                                : Starting App on DESKTOP-HDNSL6C with PID 10324 (started by colin in C:\Users\colin\eclipse-workspace\Week 14 Assignment\inventorymanagement)
+2020-09-19 09:23:57.759  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b40cc1: startup date [Sat Sep 19 09:23:57 MST 2020]; root of context hierarchy
+2020-09-19 09:23:58.228  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-09-19 09:23:58.580  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-09-19 09:23:58.729  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c1dc8c1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 09:23:58.752  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 09:23:58.764  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 09:23:58.770  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 09:23:59.113  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-09-19 09:23:59.255  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-09-19 09:23:59.258  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-09-19 09:23:59.333  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-09-19 09:23:59.335  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1578 ms
+2020-09-19 09:23:59.789  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-09-19 09:23:59.793  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-19 09:23:59.793  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-19 09:23:59.947  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-19 09:23:59.957  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-19 09:24:00.027  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-19 09:24:00.030  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-09-19 09:24:00.032  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-09-19 09:24:00.147  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-19 09:24:00.928  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-09-19 09:24:01.055  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-09-19 09:24:01.324  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-09-19 09:24:01.815  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-09-19 09:24:02.317  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b40cc1: startup date [Sat Sep 19 09:23:57 MST 2020]; root of context hierarchy
+2020-09-19 09:24:02.375  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.getCustomer(java.lang.Long)
+2020-09-19 09:24:02.377  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.getCustomers()
+2020-09-19 09:24:02.379  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.updateCustomer(com.promineotech.inventorymanagement.entity.Customer,java.lang.Long)
+2020-09-19 09:24:02.380  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.createCustomer(com.promineotech.inventorymanagement.entity.Customer)
+2020-09-19 09:24:02.381  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2020-09-19 09:24:02.383  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2020-09-19 09:24:02.385  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.OrderController.updateOrder(com.promineotech.inventorymanagement.entity.Order,java.lang.Long)
+2020-09-19 09:24:02.388  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.getProducts()
+2020-09-19 09:24:02.389  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.updateProduct(com.promineotech.inventorymanagement.entity.Product,java.lang.Long)
+2020-09-19 09:24:02.391  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/.{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.deleteProduce(java.lang.Long)
+2020-09-19 09:24:02.393  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-09-19 09:24:02.394  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-19 09:24:02.423  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-19 09:24:02.425  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-19 09:24:02.456  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-19 09:24:02.588  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-09-19 09:24:02.616  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-19 09:24:02.624  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-09-19 09:24:02.639  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-09-19 09:24:02.657  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-09-19 09:24:02.659  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] c.p.i.App                                : Started App in 5.102 seconds (JVM running for 8.255)
+2020-09-19 09:32:43.330  INFO DESKTOP-HDNSL6C
+			--- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-19 09:32:43.331  INFO DESKTOP-HDNSL6C
+			--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-19 09:32:43.352  INFO DESKTOP-HDNSL6C
+			--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2020-09-19 09:36:53.181  WARN DESKTOP-HDNSL6C
+			--- [nio-8080-exec-8] o.s.w.s.PageNotFound                     : Request method 'PUT' not supported
+2020-09-19 09:37:23.738  WARN DESKTOP-HDNSL6C
+			--- [nio-8080-exec-9] o.s.w.s.PageNotFound                     : Request method 'POST' not supported
+2020-09-19 09:45:48.913  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] c.p.i.App                                : Starting App on DESKTOP-HDNSL6C with PID 11896 (started by colin in C:\Users\colin\eclipse-workspace\Week 14 Assignment\inventorymanagement)
+2020-09-19 09:45:48.936  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb59c8c: startup date [Sat Sep 19 09:45:48 MST 2020]; root of context hierarchy
+2020-09-19 09:45:49.358  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-09-19 09:45:49.727  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-09-19 09:45:49.852  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$42ff919c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 09:45:49.873  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 09:45:49.886  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 09:45:49.892  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 09:45:50.280  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-09-19 09:45:50.426  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-09-19 09:45:50.428  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-09-19 09:45:50.489  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-09-19 09:45:50.492  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1558 ms
+2020-09-19 09:45:50.921  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-09-19 09:45:50.926  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-19 09:45:50.927  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-19 09:45:51.097  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-19 09:45:51.110  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-19 09:45:51.169  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-19 09:45:51.172  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-09-19 09:45:51.174  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-09-19 09:45:51.279  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-19 09:45:51.940  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-09-19 09:45:52.062  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-09-19 09:45:52.301  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-09-19 09:45:52.721  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-09-19 09:45:53.209  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb59c8c: startup date [Sat Sep 19 09:45:48 MST 2020]; root of context hierarchy
+2020-09-19 09:45:53.260  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.getCustomer(java.lang.Long)
+2020-09-19 09:45:53.262  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2020-09-19 09:45:53.263  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.getCustomers()
+2020-09-19 09:45:53.264  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.updateCustomer(com.promineotech.inventorymanagement.entity.Customer,java.lang.Long)
+2020-09-19 09:45:53.266  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.createCustomer(com.promineotech.inventorymanagement.entity.Customer)
+2020-09-19 09:45:53.267  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.OrderController.updateOrder(com.promineotech.inventorymanagement.entity.Order,java.lang.Long)
+2020-09-19 09:45:53.269  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2020-09-19 09:45:53.272  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/.{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.deleteProduce(java.lang.Long)
+2020-09-19 09:45:53.274  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.getProducts()
+2020-09-19 09:45:53.275  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.updateProduct(com.promineotech.inventorymanagement.entity.Product,java.lang.Long)
+2020-09-19 09:45:53.276  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.createProduct(com.promineotech.inventorymanagement.entity.Product)
+2020-09-19 09:45:53.278  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-09-19 09:45:53.282  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-19 09:45:53.305  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-19 09:45:53.308  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-19 09:45:53.336  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-19 09:45:53.450  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-09-19 09:45:53.472  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-19 09:45:53.479  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-09-19 09:45:53.491  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-09-19 09:45:53.505  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-09-19 09:45:53.507  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] c.p.i.App                                : Started App in 4.744 seconds (JVM running for 7.266)
+2020-09-19 09:46:04.529  INFO DESKTOP-HDNSL6C
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-19 09:46:04.530  INFO DESKTOP-HDNSL6C
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-19 09:46:04.546  INFO DESKTOP-HDNSL6C
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2020-09-19 09:51:24.759 ERROR DESKTOP-HDNSL6C
+			--- [nio-8080-exec-7] c.p.i.s.OrderService                     : Exception occurred while trying to create new order for customer: 1
+java.lang.NullPointerException
+	at com.promineotech.inventorymanagement.service.OrderService.initializeNewOrder(OrderService.java:75)
+	at com.promineotech.inventorymanagement.service.OrderService.submitNewOrder(OrderService.java:39)
+	at com.promineotech.inventorymanagement.controller.OrderController.createCustomer(OrderController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:869)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1526)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1482)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-19 09:56:49.692  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] c.p.i.App                                : Starting App on DESKTOP-HDNSL6C with PID 19296 (started by colin in C:\Users\colin\eclipse-workspace\Week 14 Assignment\inventorymanagement)
+2020-09-19 09:56:49.716  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e54c5ce: startup date [Sat Sep 19 09:56:49 MST 2020]; root of context hierarchy
+2020-09-19 09:56:50.161  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-09-19 09:56:50.504  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-09-19 09:56:50.630  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$50a45cab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 09:56:50.653  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 09:56:50.666  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 09:56:50.672  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 09:56:50.994  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-09-19 09:56:51.128  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-09-19 09:56:51.130  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-09-19 09:56:51.201  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-09-19 09:56:51.202  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1488 ms
+2020-09-19 09:56:51.632  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-09-19 09:56:51.637  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-19 09:56:51.638  INFO DESKTOP-HDNSL6C
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-19 09:56:51.783  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-19 09:56:51.794  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-19 09:56:51.850  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-19 09:56:51.853  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-09-19 09:56:51.855  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-09-19 09:56:51.958  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-19 09:56:52.658  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-09-19 09:56:52.780  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-09-19 09:56:53.011  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaUpdate                     : HHH000228: Running hbm2ddl schema update
+2020-09-19 09:56:53.012  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaUpdate                     : HHH000102: Fetching database metadata
+2020-09-19 09:56:53.013  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaUpdate                     : HHH000396: Updating schema
+2020-09-19 09:56:53.052  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_api.address
+2020-09-19 09:56:53.054  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [zip, city, street, id, state]
+2020-09-19 09:56:53.054  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2020-09-19 09:56:53.055  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2020-09-19 09:56:53.067  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_api.customer
+2020-09-19 09:56:53.068  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [level, last_name, id, first_name]
+2020-09-19 09:56:53.068  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2020-09-19 09:56:53.069  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2020-09-19 09:56:53.084  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_api.order
+2020-09-19 09:56:53.085  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [ordered, delivered, id, estimated_delivery, customer_id, invoice_amount, status]
+2020-09-19 09:56:53.086  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: [fk_m6q2ofkj1g5aobtb2p00ajpqg]
+2020-09-19 09:56:53.086  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [fk_m6q2ofkj1g5aobtb2p00ajpqg, primary]
+2020-09-19 09:56:53.106  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_api.product_order
+2020-09-19 09:56:53.108  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [product_id, order_id]
+2020-09-19 09:56:53.108  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: [fk_5uw5nxqovigv7mf1gmbos1rl8, fk_sf5yp37b7qt63qqoq25f82lpu]
+2020-09-19 09:56:53.109  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [fk_5uw5nxqovigv7mf1gmbos1rl8, primary]
+2020-09-19 09:56:53.122  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_api.product
+2020-09-19 09:56:53.122  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [price, name, description, id]
+2020-09-19 09:56:53.123  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2020-09-19 09:56:53.123  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2020-09-19 09:56:53.124  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.h.t.h.SchemaUpdate                     : HHH000232: Schema update complete
+2020-09-19 09:56:53.622  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e54c5ce: startup date [Sat Sep 19 09:56:49 MST 2020]; root of context hierarchy
+2020-09-19 09:56:53.670  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.getCustomers()
+2020-09-19 09:56:53.672  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.createCustomer(com.promineotech.inventorymanagement.entity.Customer)
+2020-09-19 09:56:53.673  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.updateCustomer(com.promineotech.inventorymanagement.entity.Customer,java.lang.Long)
+2020-09-19 09:56:53.675  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.getCustomer(java.lang.Long)
+2020-09-19 09:56:53.676  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2020-09-19 09:56:53.678  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.OrderController.updateOrder(com.promineotech.inventorymanagement.entity.Order,java.lang.Long)
+2020-09-19 09:56:53.681  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2020-09-19 09:56:53.683  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.getProducts()
+2020-09-19 09:56:53.684  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.updateProduct(com.promineotech.inventorymanagement.entity.Product,java.lang.Long)
+2020-09-19 09:56:53.686  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.createProduct(com.promineotech.inventorymanagement.entity.Product)
+2020-09-19 09:56:53.687  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/.{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventorymanagement.controller.ProductController.deleteProduce(java.lang.Long)
+2020-09-19 09:56:53.690  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-19 09:56:53.692  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-09-19 09:56:53.717  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-19 09:56:53.719  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-19 09:56:53.750  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-19 09:56:53.865  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-09-19 09:56:53.888  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-19 09:56:53.894  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-09-19 09:56:53.905  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-09-19 09:56:53.922  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-09-19 09:56:53.925  INFO DESKTOP-HDNSL6C
+			--- [ment.App.main()] c.p.i.App                                : Started App in 4.394 seconds (JVM running for 7.042)
+2020-09-19 10:00:08.100  INFO DESKTOP-HDNSL6C
+			--- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-19 10:00:08.102  INFO DESKTOP-HDNSL6C
+			--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-19 10:00:08.122  INFO DESKTOP-HDNSL6C
+			--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
